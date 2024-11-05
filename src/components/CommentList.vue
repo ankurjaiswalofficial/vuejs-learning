@@ -2,7 +2,6 @@
 import { ref } from 'vue';
 import { format } from 'date-fns';
 import { useBlogStore } from '../stores/blogStore';
-import type { Comment } from '../types/blog';
 
 const props = defineProps<{
   postId: number;
